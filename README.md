@@ -20,7 +20,6 @@
 ## Results
 
 ![result](result.png)
-![train](train.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Technologies Used
