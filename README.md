@@ -15,9 +15,7 @@
   
 ![model](model.png)
 
-- The dataset is Caltech Birds - 2010 dataset.
-
-![data](data.png)
+- The dataset is Caltech Birds - 2010 dataset
 
 ## Results
 
