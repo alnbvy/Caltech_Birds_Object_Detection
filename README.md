@@ -1,4 +1,4 @@
-# Classification and object localization of the handwritten digits
+# Object detection of birds
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -9,24 +9,20 @@
 
 
 ## General Information
-- The project has two goals: 1) first to classifiy the handwritten digit 2) predict the bounding box around the hand-written digit
-- I am using a branched neural network architecture using TensorFlow functional API: 
-  - 1) feature_extractor: these convolutional layers extract the features of the image.
-  - 2) classifier: This define the output layer that predicts among 10 categories (digits 0 through 9)
-  - 3) bounding_box_regression: This defines the output layer that predicts 4 numeric values, which define the coordinates of the bounding box (xmin, ymin, xmax, ymax)
+- The goal of the project is to train a deep learning model to perform object detection of birds
+- I will be performing transfer learning with MobileNet V2
+- I'll also use pretrained 'imagenet' weights as a starting point for further training. These weights are also readily available
   
 ![model](model.png)
 
-- The link to the dataset: [Handwritten digits dataset](http://yann.lecun.com/exdb/mnist/).
+- The dataset is Caltech Birds - 2010 dataset.
 
 ![data](data.png)
-
-- The model achieves an accuracy of 99% for the classification and MSE of 0.0012 for the regression on the validation set after 10 epochs.
-- The notebook has the capability to run on either TPUs, GPUs or CPUs. It uses tf.distribute.MirroredStrategy in case of multiple GPUs and tf.distribute.experimental.TPUStrategy in case of TPU.
 
 ## Results
 
 ![result](result.png)
+![train](train.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Technologies Used
