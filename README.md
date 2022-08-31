@@ -9,7 +9,7 @@
 
 
 ## General Information
-- The goal of the project is to train a deep learning model to perform object detection of birds
+- The goal of the project is to train a deep learning model to perform object detection of birds.
 - I will be performing transfer learning with MobileNet V2
 - I'll also use pretrained 'imagenet' weights as a starting point for further training. These weights are also readily available
   
